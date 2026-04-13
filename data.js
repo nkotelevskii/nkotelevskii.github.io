@@ -3,47 +3,61 @@
 
 const PUBLICATIONS = [
   {
-    title: "Learning Confident Classifiers in the Presence of Label Noise",
-    authors: "A. A. Hashmi, A. Zhumabayeva, **N. Kotelevskii**, A. Agafonov, M. Yaqub, et al.",
-    venue: "SIAM International Conference on Data Mining (SDM)",
-    year: 2025,
-    url: "https://scholar.google.com/citations?user=D9b8bXEAAAAJ"
-  },
-  {
-    title: "Efficient Conformal Prediction under Data Heterogeneity",
-    authors: "V. Plassier, **N. Kotelevskii**, A. Rubashevskii, F. Noskov, M. Velikanov, et al.",
-    venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)",
-    year: 2024,
-    url: "https://scholar.google.com/citations?user=D9b8bXEAAAAJ"
-  },
-  {
     title: "FedPop: A Bayesian Approach for Personalised Federated Learning",
     authors: "**N. Kotelevskii**, M. Vono, A. Durmus, E. Moulines.",
     venue: "Advances in Neural Information Processing Systems (NeurIPS)",
     year: 2022,
-    url: "https://scholar.google.com/citations?user=D9b8bXEAAAAJ"
+    url: "https://arxiv.org/pdf/2206.03611"
+  },
+  {
+    title: "Neural Optimal Transport Meets Multivariate Conformal Prediction",
+    authors: "Kondratyev, V., Fishkov, A., **Kotelevskii, N.**, Hegazy, M., Flamary, R., Panov, M., & Moulines, E.",
+    venue: "ICLR 2026",
+    year: 2026,
+    url: "https://arxiv.org/pdf/2509.25444"
+  },
+  {
+    title: "From risk to uncertainty: Generating predictive uncertainty measures via bayesian estimation",
+    authors: "**Kotelevskii, N.**, Kondratyev, V., Takáč, M., Moulines, E., & Panov, M.",
+    venue: "ICLR 2025",
+    year: 2025,
+    url: "https://proceedings.iclr.cc/paper_files/paper/2025/file/e6f32e64b9c27d153b46c94f0fe22b56-Paper-Conference.pdf"
+  },
+  {
+    title: "Dirichlet-based uncertainty quantification for personalized federated learning with improved posterior networks",
+    authors: "**N. Kotelevskii**, S. Horváth, K. Nandakumar, M. Takáč, M. Panov.",
+    venue: "Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence (IJCAI-24)",
+    year: 2024,
+    url: "https://www.ijcai.org/proceedings/2024/0788.pdf" 
   },
   {
     title: "Nonparametric Uncertainty Quantification for Single Deterministic Neural Network",
     authors: "**N. Kotelevskii**, A. Artemenkov, K. Fedyanin, F. Noskov, A. Fishkov, et al.",
     venue: "Advances in Neural Information Processing Systems (NeurIPS)",
     year: 2022,
-    url: "https://scholar.google.com/citations?user=D9b8bXEAAAAJ"
+    url: "https://proceedings.neurips.cc/paper_files/paper/2022/file/eb7389b039655fc5c53b11d4a6fa11bc-Paper-Conference.pdf" 
   },
   {
     title: "Monte Carlo Variational Auto-Encoders",
     authors: "A. Thin, **N. Kotelevskii**, A. Doucet, A. Durmus, E. Moulines, M. Panov.",
     venue: "International Conference on Machine Learning (ICML)",
     year: 2021,
-    url: "https://scholar.google.com/citations?user=D9b8bXEAAAAJ"
+    url: "https://proceedings.mlr.press/v139/thin21a/thin21a.pdf" 
   },
   {
-    title: "Metropolized Flow: From Invertible Flow to MCMC",
-    authors: "A. Thin, **N. Kotelevskii**, A. Durmus, M. Panov, E. Moulines.",
-    venue: "ICML Workshop on Invertible Neural Networks and Normalizing Flows",
-    year: 2020,
-    url: "https://scholar.google.com/citations?user=D9b8bXEAAAAJ"
-  }
+    title: "Learning Confident Classifiers in the Presence of Label Noise",
+    authors: "A. A. Hashmi, A. Zhumabayeva, **N. Kotelevskii**, A. Agafonov, M. Yaqub, et al.",
+    venue: "SIAM International Conference on Data Mining (SDM)",
+    year: 2025,
+    url: "https://arxiv.org/pdf/2301.00524" 
+  },
+  {
+    title: "Efficient Conformal Prediction under Data Heterogeneity",
+    authors: "V. Plassier, **N. Kotelevskii**, A. Rubashevskii, F. Noskov, M. Velikanov, et al.",
+    venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)",
+    year: 2024,
+    url: "https://proceedings.mlr.press/v238/plassier24a/plassier24a.pdf" 
+  },
 ];
 
 // EXAMPLE — copy one object and paste it at the top of the array to add a new publication:
