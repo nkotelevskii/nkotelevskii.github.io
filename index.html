@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nikita Kotelevskii</title>
+  <meta name="description" content="Personal academic page of Nikita Kotelevskii — Researcher in Machine Learning and Statistics." />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- data.js must load before script.js -->
+  <script src="data.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- ── Header ─────────────────────────────────────────── -->
+  <header class="site-header">
+    <div class="header-left">
+      <h1>Nikita Kotelevskii</h1>
+      <p class="tagline">Researcher · Machine Learning &amp; Statistics</p>
+    </div>
+    <button id="theme-toggle" aria-label="Toggle dark mode">☽</button>
+  </header>
+
+  <!-- ── Profile block ──────────────────────────────────── -->
+  <div class="profile-block">
+    <img
+      class="profile-photo"
+      src="assets/profile.png"
+      alt="Portrait of Nikita Kotelevskii"
+      width="180"
+    />
+    <div class="profile-bio">
+      <p>
+        I am a researcher working at the intersection of machine learning and statistics,
+        with a focus on making probabilistic models more reliable and trustworthy.
+        My work spans uncertainty quantification, Bayesian deep learning,
+        federated learning, and conformal prediction.
+      </p>
+      <p>
+        I develop methods that are both theoretically grounded and practically useful —
+        bridging rigorous statistical guarantees with real-world applicability in
+        safety-critical settings.
+      </p>
+    </div>
+  </div>
+
+  <!-- ── 1. Research Interests ──────────────────────────── -->
+  <section id="interests" aria-label="Research interests">
+    <h2 class="section-heading">Research&nbsp;Interests</h2>
+    <div class="tags">
+      <span class="tag">#uncertainty-quantification</span>
+      <span class="tag">#bayesian-machine-learning</span>
+      <span class="tag">#federated-learning</span>
+      <span class="tag">#conformal-prediction</span>
+      <span class="tag">#variational-inference</span>
+      <span class="tag">#mcmc</span>
+      <span class="tag">#trustworthy-ai</span>
+    </div>
+  </section>
+
+  <!-- ── 2. Publications ────────────────────────────────── -->
+  <section id="publications" aria-label="Publications">
+    <h2 class="section-heading">Publications</h2>
+    <ul id="pub-list" class="pub-list">
+      <!-- populated by script.js from data.js -->
+    </ul>
+  </section>
+
+  <!-- ── 3. Teaching ────────────────────────────────────── -->
+  <section id="teaching" aria-label="Teaching">
+    <h2 class="section-heading">Teaching</h2>
+    <ul id="course-list" class="course-list">
+      <!-- populated by script.js from data.js -->
+    </ul>
+  </section>
+
+  <!-- ── 4. Links footer ────────────────────────────────── -->
+  <footer class="links-footer" aria-label="External links">
+    <a href="https://scholar.google.com/citations?user=D9b8bXEAAAAJ" target="_blank" rel="noopener">
+      <span class="link-label">scholar</span>Google Scholar
+    </a>
+    <a href="https://github.com/nkotelevskii" target="_blank" rel="noopener">
+      <span class="link-label">github</span>github/nkotelevskii
+    </a>
+    <a href="https://www.linkedin.com/in/nikita-kotelevskii-b52271130/" target="_blank" rel="noopener">
+      <span class="link-label">linkedin</span>linkedin/nikita-kotelevskii
+    </a>
+    <a href="https://t.me/nktlvsk" target="_blank" rel="noopener">
+      <span class="link-label">telegram</span>t.me/nktlvsk
+    </a>
+  </footer>
+
+</div><!-- /container -->
+
+<script src="script.js"></script>
+</body>
+</html>
