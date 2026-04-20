@@ -53,14 +53,12 @@ Paste it wherever you want it to appear in the teaching list and save.
 
 ---
 
-## How to: update links (email, GitHub)
+## How to: update external links (Scholar, GitHub, LinkedIn, Telegram)
 
-Open `index.html` and find the `<footer class="links-footer">` section near the bottom.
-Replace the placeholder values:
+Open `index.html` and find the `<nav class="profile-links">` block inside the profile block (directly under the photo).
+Each link is an `<a>` with an inline SVG icon. To change a destination, edit the `href` of the matching anchor.
 
-- `mailto:you@example.com` → your real email address
-- `https://github.com/your-handle` → your GitHub profile URL
-- The link text beside each `<span class="link-label">` can also be updated.
+To add a new icon (e.g. email, Twitter/X, Bluesky): copy one of the existing `<a>…</a>` blocks, swap in the new `href`, `aria-label`, `title`, and replace the `<svg>` body with the glyph from [simpleicons.org](https://simpleicons.org/) (use the SVG path markup; the existing `viewBox="0 0 24 24"` and `fill="currentColor"` via CSS will carry over so the icon inherits the theme color).
 
 ---
 
